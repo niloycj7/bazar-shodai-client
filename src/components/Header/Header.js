@@ -60,11 +60,11 @@ const Header = () => {
                     {
                         user.email? 
                         <LinkContainer to="/admin">
-                        <Nav.Link className="ordinary-button">Login</Nav.Link>
+                        <Nav.Link className="ordinary-button">Logout</Nav.Link>
                     </LinkContainer> 
                     : 
                     <LinkContainer to="/admin">
-                        <Nav.Link onClick={handleSignOut} className="ordinary-button">Logout</Nav.Link>
+                        <Nav.Link onClick={handleSignOut} className="ordinary-button">Login</Nav.Link>
                     </LinkContainer>
                     }
                     

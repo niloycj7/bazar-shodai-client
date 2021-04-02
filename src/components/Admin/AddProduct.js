@@ -14,7 +14,7 @@ const AddProduct = () => {
             weight: data.weight,
             imageURL: imageURL
         }
-        fetch("http://localhost:5055/addProduct", {
+        fetch("https://warm-mountain-71140.herokuapp.com/addProduct", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
