@@ -1,0 +1,21 @@
+#adminSection{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+.sideNav{
+    background-color: #203D37;
+    color:white;
+}
+.sideNav h2{
+    text-align: center;
+}
+.navBar p,button{
+    display: block;
+}
+.navBar button{
+    background: none;
+    border: none;
+    color: white;
+}
